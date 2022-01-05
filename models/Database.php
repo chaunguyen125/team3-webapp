@@ -8,8 +8,8 @@ class Database {
     public static $password = "zap";
 
     public static function connect() {
-        $pdo = new PDO('mysql:host=127.0.0.1;port=3306;dbname=film_collection',
-        'chau', 'zap');
+        $pdo = new PDO('mysql:host=MYSQL5046.site4now.net;dbname=db_a7ea27_team3we',
+        'a7ea27_team3we', 'chautungthai');
 
         // $pdo = new PDO("mysql:host=".self::$host.";dbname=".self::$dbName.";charset=utf8",
         // self::$userName, self::$password);
